@@ -842,19 +842,19 @@ footer:-ms-input-placeholder {
 }
 
 .slide_1 {
-    background-image: url("../images/1slider.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/1slider.jpg");
     background-repeat: no-repeat;
     background-position: 2% 39%;
 }
 
 .slide_2 {
-    background-image: url("../images/2slider.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/2slider.jpg");
     background-repeat: no-repeat;
     background-position: 2% 45%;
 }
 
 .slide_3 {
-    background-image: url("../images/3slider.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/3slider.jpg");
     background-repeat: no-repeat;
     background-position: 2% 73%;
 }
@@ -881,14 +881,14 @@ footer:-ms-input-placeholder {
     color: #fff;
 }
 
-.slider-info:after {
+.Xslider-info:after {
     background: transparent;
     background: -moz-linear-gradient(top, rgba(6, 6, 6, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(6, 6, 6, 0.8)), color-stop(100%, rgba(0, 0, 0, 0)));
-    background: -webkit-linear-gradient(top, rgba(6, 6, 6, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
-    background: -o-linear-gradient(top, rgba(6, 6, 6, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(6, 6, 6, 0.8)), color-stop(100%, rgba(0, 0, 0, 0))); 
+    background: -webkit-linear-gradient(top, rgba(6, 6, 6, 0.8) 0%, rgba(0, 0, 0, 0) 100%); 
+    background: -o-linear-gradient(top, rgba(6, 6, 6, 0.8) 0%, rgba(0, 0, 0, 0) 100%); 
     background: -ms-linear-gradient(top, rgba(6, 6, 6, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
-    background: linear-gradient(to bottom, rgba(6, 6, 6, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    background: linear-gradient(to bottom, rgba(6, 6, 6, 0.8) 0%, rgba(0, 0, 0, 0) 100%);  
     content: "";
     display: block;
     height: 350px;
@@ -1129,7 +1129,7 @@ a.white:active {
 }
 
 .main-container-4 .person-content h3 {
-    margin-top: 37px;
+    margin-top: 20px;
     letter-spacing: -1px;
 }
 
@@ -3711,7 +3711,6 @@ p.about-author-paragraph:hover a{
 .mb-causes{
     padding-top: 80px;
     padding-bottom: 80px;
-    border-bottom: 2px solid #f2f2f2;
 }
 
 .mb-causes.mb-causes-top{
@@ -3955,9 +3954,13 @@ p.about-author-paragraph:hover a{
 }
 
 .main-events .person-content h3{
-    margin-top: 43px;
+    margin-top: 0px;
 }
-
+@media only screen and (max-width: 800px) {
+    .ajaa {
+    margin-top: 40px;
+  }
+}
 .main-events .person-img:hover{
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
@@ -4074,8 +4077,11 @@ p.about-author-paragraph:hover a{
     .main-events .gb-list{
         display: inline-block;
     }
-    .main-events .person-card {
+    .main-events .person-card{
         margin-top: 30px;
+    }
+	.top23 {
+        margin-top: 20px;
     }
 }
 
