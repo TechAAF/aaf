@@ -391,7 +391,7 @@ iframe{
 /* ===========================  5. Menu-Bar  ====================== */
 .menuBar {
     position: absolute;
-    top: 20px;
+    top: 52px;
     z-index: 9999;
     width: 100%;
 }
@@ -843,19 +843,19 @@ footer:-ms-input-placeholder {
 }
 
 .slide_1 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/1slider.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/1slider.jpg");
     background-repeat: no-repeat;
     background-position: 2% 39%;
 }
 
 .slide_2 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/2slider.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/2slider.jpg");
     background-repeat: no-repeat;
     background-position: 2% 45%;
 }
 
 .slide_3 {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/3slider.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/3slider.jpg");
     background-repeat: no-repeat;
     background-position: 2% 73%;
 }
@@ -1820,7 +1820,7 @@ a.white:active {
 
     /* ========  Menu-Bar  ======== */
     .menuBar{
-        top: 20px;
+        top: 45px;
     }
 
     ul.nav.navbar-nav {
