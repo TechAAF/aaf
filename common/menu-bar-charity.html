@@ -1,0 +1,67 @@
+<div class="menuBar">
+	<nav class="navbar navbar-default ">
+		<div class="container p0">
+			<div class="navbar-header">
+				<div class="logo">
+					<a href="/" class="navbar-brand">
+						<img src="/assets/images/aaf.png" style="width:150px" alt="AAF Logo">
+					</a>
+				</div>
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+						data-target="#navbar-menu">
+					<i class="fa fa-bars" aria-hidden="true"></i>
+				</button>
+			</div>
+			<div class="navbar-right">
+
+				<div id="navbar-menu" class="collapse navbar-collapse ">
+					<ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
+						<li class="dropdown">
+							<a href="/" class="dropdown-toggle" 
+							   role="button" aria-expanded="false" title="Home">HOME</a>
+						</li>
+						<li><a href="/about-us/" class="about-us" title="About us">ABOUT US</a></li>
+						<li class="dropdown">
+							<a href="/our-causes/" class="dropdown-toggle" 
+							   role="button" aria-expanded="false" title="Our causes">OUR ACTIVITES</a>
+
+						</li>
+						<li class="dropdown">
+							<a href="/blog/" class="dropdown-toggle"
+							   role="button" aria-expanded="false" title="News">PARVAAZ PARINDEY</a>
+						</li>
+						<li class="dropdown">
+                            <a href="/news/" class="dropdown-toggle" 
+                               role="button" aria-expanded="false" title="News">AWARDS</a>
+                        </li>
+						<li class="dropdown">
+                            <a href="/shop/" class="dropdown-toggle" 
+                               role="button" aria-expanded="false" title="Shop">RECYCLE SHOP</a>
+                        </li>
+						<li class="last"><a href="/contact/" class="contact" title="Contact">CONTACT</a></li>
+					</ul>
+				</div>
+
+			</div>
+		</div>
+	</nav>
+</div>
+
+<script>
+    "use strict";
+    // ===================== Menu Bar ======================
+     $(document).ready(function(){
+    var pathname = window.location.pathname;
+    var page = pathname.split(/[/ ]+/).pop();
+    var menuItems = $('#navbar-menu a');
+    menuItems.each(function(){
+        var mi = $(this);
+        var miHrefs = mi.attr("href");
+        var miParents = mi.parents('li');
+        if(page == miHrefs) {
+            miParents.addClass("active").siblings().removeClass('active');
+        }
+    });
+     });
+</script>
+
