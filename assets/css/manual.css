@@ -2132,7 +2132,7 @@ a.white:active {
 .banner{
     position: relative;
     height: 481px;
-    background: url('assets/images/banner2.jpg');
+    background: url('/assets/images/xbanner.jpg');
     background-size: cover;
     background-position: 0 5%;
     background-repeat: no-repeat;
