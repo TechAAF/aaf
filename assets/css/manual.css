@@ -391,7 +391,7 @@ iframe{
 /* ===========================  5. Menu-Bar  ====================== */
 .menuBar {
     position: absolute;
-    top: 52px;
+    top: 20px;
     z-index: 9999;
     width: 100%;
 }
