@@ -442,7 +442,7 @@ iframe{
     font-family: Cutie Patootie;
     font-size: 50px;
     position: absolute;
-    top: 20px;
+    top: 52px;
     left: 55px;
 }
 
@@ -1820,7 +1820,7 @@ a.white:active {
 
     /* ========  Menu-Bar  ======== */
     .menuBar{
-        top: 45px;
+        top: 20px;
     }
 
     ul.nav.navbar-nav {
