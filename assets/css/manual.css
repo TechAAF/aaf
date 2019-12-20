@@ -843,7 +843,7 @@ footer:-ms-input-placeholder {
 }
 
 .slide_1 {
-    background:  url("../images/1slider.jpg");
+    background:  url("../images/3slider.jpg");
     background-repeat: no-repeat;
     background-position: 2% 39%;
 }
@@ -855,7 +855,7 @@ footer:-ms-input-placeholder {
 }
 
 .slide_3 {
-    background:  url("../images/3slider.jpg");
+    background:  url("../images/1slider.jpg");
     background-repeat: no-repeat;
     background-position: 2% 73%;
 }
