@@ -21,24 +21,24 @@ require 'phpmailer/src/SMTP.php';
 
 
 /*-------------------------------------------------
-	Receiver's Email  --> 
+	Receiver's Email  -->
 ---------------------------------------------------*/
 
 $toemails = array();
 
 $toemails[] = array(
-				'email' => 'anu@ambicio.social', // Your Email Address
-				'name' => 'Fun Empire' // Your Name
+				'email' => 'adxdxa@gmail.com', // Your Email Address
+				'name' => 'Asha Akanksha Foundation' // Your Name
 			);
 
 
 /*-------------------------------------------------
-	Sender's Email   --> 
+	Sender's Email   -->
 ---------------------------------------------------*/
 
 $fromemail = array(
-				'email' => 'adxdxa@gmail.com', // Company's Email Address (preferably currently used Domain Name)
-				'name' => 'FunEmpire' // Company Name
+				'email' => 'info@aafngo.org', // Company's Email Address (preferably currently used Domain Name)
+				'name' => 'AAF' // Company Name
 			);
 
 
@@ -56,7 +56,7 @@ $recaptcha_secret = ''; // Your reCaptcha Secret
 
 $mail = new PHPMailer();
 
-/* Add your SMTP Codes after this Line 	 -->	 	*/		
+/* Add your SMTP Codes after this Line 	 -->	 	*/
 
 $mail->IsSMTP(); // enable SMTP
 $mail->SMTPDebug = 1; // debugging: 1 = errors and messages, 2 = messages only
