@@ -202,9 +202,7 @@ img {
     vertical-align: top;
     border: none;
 }
-h1, h2, h3, h4, li, div, span, button, a {
-  color:black;
-}
+
 .fa {
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
@@ -845,19 +843,19 @@ footer:-ms-input-placeholder {
 }
 
 .slide_1 {
-    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("../images/3slider.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/3slider.jpg");
     background-repeat: no-repeat;
     background-position: 2% 39%;
 }
 
 .slide_2 {
-    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("../images/2slider.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/2slider.jpg");
     background-repeat: no-repeat;
     background-position: 2% 45%;
 }
 
 .slide_3 {
-    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), url("../images/1slider.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../images/1slider.jpg");
     background-repeat: no-repeat;
     background-position: 2% 73%;
 }
