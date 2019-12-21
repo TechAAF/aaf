@@ -1,1 +1,5 @@
-
+RewriteEngine on
+RewriteCond %{HTTP_HOST} !^www\.aafngo\.org
+RewriteRule (.*) https://www.aafngo.org/$1 [R=301,L]
+RewriteCond %{HTTPS} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
