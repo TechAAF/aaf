@@ -251,6 +251,11 @@ p {margin-bottom: 20px;}
   </div> <!--  /.page -->
 
   <!-- JS code -->
+  <script>
+  $("img").on("error", function() {
+    $(this).hide();
+  });
+  </script>
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <script src="/assets/js/jquery.spincrement.js"></script>
   <script src="/assets/js/owl.carousel.min.js"></script>
