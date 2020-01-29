@@ -76,7 +76,28 @@
                 <textarea class="form-control" rows="4" placeholder="Message..."></textarea>
               </div>
               <div class="form-group buttons ">
-                <input type="submit" class="red-btn red-btn-form" value="Send Message">
+                <button type="button" class="red-btn red-btn-form" data-toggle="modal" data-target="#myModal">Send Message</button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="myModal" role="dialog">
+                  <div class="modal-dialog">
+
+                    <!-- Modal content-->
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                        <h4 class="modal-title">Please email us at info@aafngo.org</h4>
+                      </div>
+                      <div class="modal-body">
+                        <p>Due to overwhelmind response, we have closed the direct message form until further notice. Kindly manually email us. Thank you for understading.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
               </div>
             </form>
           </div>
