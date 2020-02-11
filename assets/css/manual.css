@@ -303,7 +303,7 @@ img {
     line-height: 1.6;
     display: inline-block;
     width: 64%;
-    word-spacing: -3px;
+    /*word-spacing: -3px;*/
     letter-spacing: 0.1px;
     margin-bottom: 60px;
 }
