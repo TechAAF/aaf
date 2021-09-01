@@ -1,41 +1,41 @@
-<div class="menubar">
+<div class="menuBar">
 	<nav class="navbar navbar-default ">
 		<div class="container p0">
 			<div class="navbar-header">
 				<div class="logo"> <a href="/" class="navbar-brand"> <img src="/assets/images/aaf.png"
-							style="width:150px" alt="aaf logo"> </a> </div> <button type="button"
+							style="width:150px" alt="AAF Logo"> </a> </div> <button type="button"
 					class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-menu"> <i
 						class="fa fa-bars" aria-hidden="true"></i> </button>
 			</div>
 			<div class="navbar-right">
 				<div id="navbar-menu" class="collapse navbar-collapse ">
-					<ul class="nav navbar-nav" data-in="fadeindown" data-out="fadeoutup">
+					<ul class="nav navbar-nav" data-in="fadeInDown" data-out="fadeOutUp">
 						<li class="dropdown"> <a href="/" class="dropdown-toggle" role="button" aria-expanded="false"
-								title="home">HOME</a> </li>
+								title="Home">HOME</a> </li>
 						<li class="dropdown"> <a href="https://resources.aafngo.org/contests" class="dropdown-toggle"
-								role="button" aria-expanded="false" title="contests">CONTESTS</a> </li>
+								role="button" aria-expanded="false" title="Contests">CONTESTS</a> </li>
 						<li class="dropdown"> <a href="https://resources.aafngo.org/career_talks/"
-								class="dropdown-toggle" role="button" aria-expanded="false" title="contests">CAREER
+								class="dropdown-toggle" role="button" aria-expanded="false" title="Contests">CAREER
 								TALKS</a> </li>
 						<li class="dropdown"> <a href="https://resources.aafngo.org/courses/" class="dropdown-toggle"
-								role="button" aria-expanded="false" title="courses">COURSES</a> </li>
+								role="button" aria-expanded="false" title="Courses">COURSES</a> </li>
 						<li class="dropdown"> <a href="https://resources.aafngo.org/research_centers/"
-								class="dropdown-toggle" role="button" aria-expanded="false" title="contests">RESEARCH
+								class="dropdown-toggle" role="button" aria-expanded="false" title="Contests">RESEARCH
 								CENTERS</a> </li>
 						<li class="dropdown"> <a href="/parvaaz-parindey/" class="dropdown-toggle" role="button"
-								aria-expanded="false" title="news">PARVAAZ PARINDEY</a> </li>
-						<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbardropdown"
+								aria-expanded="false" title="News">PARVAAZ PARINDEY</a> </li>
+						<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
 								role="button" data-bs-toggle="dropdown" aria-expanded="false"> MORE <i
 									class="bi bi-caret-down-fill"></i> </a>
-							<ul class="dropdown-menu" aria-labelledby="navbardropdown">
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
 								<li><a href="/awards/" class="dropdown-item" role="button" aria-expanded="false"
-										title="news">AWARDS</a></li>
+										title="News">AWARDS</a></li>
 								<li><a href="/shop/" class="dropdown-item" role="button" aria-expanded="false"
-										title="shop">RECYCLE SHOP</a></li>
+										title="Shop">RECYCLE SHOP</a></li>
 								<li><a href="/our-activities/" class="dropdown-item" role="button" aria-expanded="false"
-										title="our causes">OUR ACTIVITIES</a></li>
+										title="Our causes">OUR ACTIVITIES</a></li>
 								<li><a href="/gallery/" class="dropdown-item" role="button" aria-expanded="false"
-										title="home">GALLERY</a></li>
+										title="Home">GALLERY</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -44,20 +44,3 @@
 		</div>
 	</nav>
 </div>
-<script>
-    "use strict";
-    // ===================== Menu Bar ======================
-     $(document).ready(function(){
-    var pathname = window.location.pathname;
-    var page = pathname.split(/[/ ]+/).pop();
-    var menuItems = $('#navbar-menu a');
-    menuItems.each(function(){
-        var mi = $(this);
-        var miHrefs = mi.attr("href");
-        var miParents = mi.parents('li');
-        if(page == miHrefs) {
-            miParents.addClass("active").siblings().removeClass('active');
-        }
-    });
-     });
-</script>
